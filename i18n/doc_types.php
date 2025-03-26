@@ -1,0 +1,68 @@
+<?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+return array(
+	//section
+	"wh_company"			=> array( "title" => "Company Code", "length" => 4, "prefix" => "CO" ),
+	"wh_warehouse"			=> array( "title" => "Warehouse Code", "length" => 4, "prefix" => "WH" ),
+	"wh_supplier"			=> array( "title" => "Supplier Code", "length" => 4, "prefix" => "SUP" ),
+	"wh_client"				=> array( "title" => "Client Code", "length" => 4, "prefix" => "C" ),
+	"wh_brand"				=> array( "title" => "Brand Code", "length" => 4, "prefix" => "BR" ),
+	"wh_asset"				=> array( "title" => "Asset Code", "length" => 4, "prefix" => "AS" ),
+	"wh_vending_machine"	=> array( "title" => "Vending Machine Code", "length" => 4, "prefix" => "VM" ),
+	"wh_items"				=> array( "title" => "Item Code", "length" => 7, "prefix" => "{GrpCode}" ),
+	"wh_itemize"			=> array( "title" => "Itemize Code", "length" => 12, "prefix" => "i" ),
+	"wh_items_order_type"	=> array( "title" => "ReOrder Code", "length" => 4, "prefix" => "ROT" ),
+	"wh_pricing"			=> array( "title" => "Pricing Code", "length" => 5, "prefix" => "Prc" ),
+	"wh_margin"				=> array( "title" => "Margin Code", "length" => 5, "prefix" => "Mgn" ),
+	"wh_promo"				=> array( "title" => "Promo Code", "length" => 5, "prefix" => "Promo" ),
+	"wh_customer"			=> array( "title" => "Customer Code", "length" => 4, "prefix" => "C{GroupCode}" ),
+	"wh_storage"			=> array( "title" => "Storage Code", "length" => 4, "prefix" => "S" ),
+	"wh_todo"				=> array( "title" => "Todo Docno", "length" => 4, "prefix" => "TODO" ),
+	//Documents
+	"shop_order" 			=> array( "title" => "Sale Order", "length" => 7, "prefix" => "S" ),
+	"invoice"				=> array( "title" => "Invoice", "length" => 7, "prefix" => "I" ),
+	"purchase_request"		=> array( "title" => "Purchase Request", "length" => 7, "prefix" => "PR" ),
+	"purchase_order"		=> array( "title" => "Purchase Order", "length" => 7, "prefix" => "PO" ),
+	"sale_order"			=> array( "title" => "Sale Order", "length" => 7, "prefix" => "SO" ),
+	"sale_return"			=> array( "title" => "Sale Return", "length" => 7, "prefix" => "SR" ),
+	"transfer_order"		=> array( "title" => "Transfer Order", "length" => 7, "prefix" => "TO" ),
+	"transfer_item"			=> array( "title" => "Transfer Item", "length" => 7, "prefix" => "TI" ),
+	"good_receive" 			=> array( "title" => "Goods Receive", "length" => 7, "prefix" => "GR" ),
+	"good_return"			=> array( "title" => "Goods Return", "length" => 7, "prefix" => "RTN" ),
+	"good_issue" 			=> array( "title" => "Goods Issue", "length" => 7, "prefix" => "GI" ),
+	"issue_return" 			=> array( "title" => "Issue Return", "length" => 7, "prefix" => "IR" ),
+	"reprocess"				=> array( "title" => "Reprocessing", "length" => 7, "prefix" => "RP" ),
+	"storing_list"			=> array( "title" => "Storing List", "length" => 7, "prefix" => "SL" ),
+	"picking_list"			=> array( "title" => "Picking List", "length" => 7, "prefix" => "PL" ),
+	"location_transfer" 	=> array( "title" => "Location Transfer", "length" => 7, "prefix" => "LT" ),
+	"delivery_instruction" 	=> array( "title" => "Delivery Instruction", "length" => 7, "prefix" => "DI" ),
+	"delivery_order" 		=> array( "title" => "Delivery Order", "length" => 7, "prefix" => "DO" ),
+	"do_revise" 			=> array( "title" => "DO Revise", "length" => 7, "prefix" => "DR" ),
+	"good_conversion"		=> array( "title" => "Goods Conversion", "length" => 7, "prefix" => "GC" ),
+	"stock_adjust" 			=> array( "title" => "Stock Adjustment", "length" => 7, "prefix" => "AD" ),
+	"stocktake" 			=> array( "title" => "StockTake", "length" => 7, "prefix" => "STK" ),
+	"block_stock"			=> array( "title" => "Block Stock", "length" => 7, "prefix" => "BS" ),
+	"block_action"			=> array( "title" => "Block Stock Action", "length" => 7, "prefix" => "BSA" ),
+	"account_period"		=> array( "title" => "Accounting Period", "length" => 5, "prefix" => "ACP" ),
+	"pos_transactions"		=> array( "title" => "POS Transaction", "length" => 7, "prefix" => "POS" ),
+	"purchase_credit_note" 	=> array( "title" => "Purchase Credit Note", "length" => 7, "prefix" => "PCN" ),
+	"purchase_debit_note" 	=> array( "title" => "Purchase Debit Note", "length" => 7, "prefix" => "PDN" ),
+	"sale_credit_note" 		=> array( "title" => "Sale Credit Note", "length" => 7, "prefix" => "SCN" ),
+	"sale_debit_note" 		=> array( "title" => "Sale Debit Note", "length" => 7, "prefix" => "SDN" ),
+
+	//
+	"asset_serial"			=> array( "title" => "Asset Serial", "type" => "range", "length" => 10, "prefix" => "1000000", "suffix" => "9999999", "next_no" => 0 ),
+	"item_serial"			=> array( "title" => "Item Serial", "type" => "range", "length" => 10, "prefix" => "100000000", "suffix" => "999999999", "next_no" => 0 ),
+	"asset_movement"		=> array( "title" => "Asset Movement Code", "length" => 7, "prefix" => "AM-" ),
+	"storage_serial"		=> array( "title" => "Storage Serial", "type" => "range", "length" => 10, "prefix" => "10000000", "suffix" => "99999999", "next_no" => 0 ),
+	"batch"					=> array( "title" => "Batch", "length" => 0, "prefix" => "{batch}", "next_no" => 0 ),
+	"price_code"			=> array( "title" => "Price Code", "length" => 7, "prefix" => "PC-" ),
+	"wh_exchange_rate"		=> array( "title" => "Exchange Rate", "length" => 4, "prefix" => "ER" ),
+	"wh_service_charge"		=> array( "title" => "Service Charge", "length" => 4, "prefix" => "SC" ),
+	"bank_in"				=> array( "title" => "Bank In Service", "length" => 7, "prefix" => "RMS" ),
+	"stock_movement_rectify"=> array( "title" => "Stock Movement Rectify", "length" => 7, "prefix" => "SMR" ),
+);

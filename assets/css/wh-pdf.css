@@ -1,0 +1,234 @@
+/***** Define START *****/
+.content_pad, .content_tab, .content_tablet, .content_mbl, .content_mobile, 
+.contentPad, .contentTab, .contentTablet, .contentMbl, .contentMobile{display:none}
+
+.full-width, .fullWidth{width:100%}
+.full-width-imp, .fullWidthImp{width:100%!important}
+.half-width, .halfWidth{width:50%}
+.quarter-width, .quarterWidth{width:25%}
+
+.display-none,.displayNone{display:none}
+.display-none-imp, .displayNoneImp{display:none!important}
+.display-initial, .displayInitial{display:initial}
+.display-initial-imp, .displayInitialImp{display:initial!important}
+.display-block, .displayBlock{display:block}
+.display-inline-block, .displayInlineBlock{display:inline-block}
+
+.text-center,.centered{text-align:center}
+.text-justify,.justifyed,.mid-text-justify{text-align:justify}
+.text-left,.leftered{text-align:left}
+.text-right,.rightered{text-align:right}
+
+.float-left, .floatLeft{float:left}
+.float-right, .floatRight{float:right}
+.float-none, .floatNone{float:none}
+.float-none-imp, .floatNoneImp{float:none!important}
+
+.pos-relative, .posRelative{position:relative}
+.pos-absolute, .posAbsolute{position:absolute}
+.pos-absolute-imp, .posAbsoluteImp{position:absolute!important}
+.pos-fixed, .posFixed{position:fixed}
+.pos-fixed-imp, .posFixedImp{position:fixed!important}
+.absolute-center, .vertical-center, .absouteCenter{left:0;right:0;margin:auto}
+
+.margin-top-30{margin-bottom:30px}
+.margin-top-60{margin-bottom:60px}
+.margin-bottom-30{margin-bottom:30px}
+.margin-bottom-60{margin-bottom:60px}
+.margin-none{margin:0}
+.margin-none-imp{margin:0!important}
+
+.font-weight-400{font-weight:400}
+.font-weight-500{font-weight:500}
+.font-weight-600{font-weight:600}
+.font-weight-bold{font-weight:700}
+.font-style-italic{font-style:italic}
+
+.font10{font-size:10px}
+.font12{font-size:12px}
+.font14{font-size:14px}
+.font16{font-size:16px}
+.font18{font-size:18px}
+.font20{font-size:20px}
+.font24{font-size:24px}
+.font28{font-size:28px}
+.font32{font-size:32px}
+.font36{font-size:36px}
+.font36{font-size:36px}
+.font40{font-size:40px}
+.font46{font-size:46px}
+.font52{font-size:52px}
+.font60{font-size:60px}
+
+.asterisk, .clr-red{color:red}
+.font-white, .fontWhite{color:#fff}
+.font-black, .fontBlack{color:#000}
+.moma-blue, .momaBlue{background:#66CCFF}
+.hover-white:hover, .hoverWhite:hover{color:#fff}
+.shadowed{text-shadow:0 1px 5px #000}
+
+.cursor-pointer, .cursorPointer{cursor:pointer}
+
+ul.initial{list-style:initial}
+ul.none, .listStyleNone, .list-style-none{list-style:none}
+
+.attachment_fixed, .attachmentFixed{background-attachment:fixed}
+.attachment_scroll, .attachmentScroll{background-attachment:scroll}
+.bg_fixed, .bgFixed{background-attachment:fixed!important;background-size:cover!important}
+
+.min-height-320{min-height:320px}
+.min-height-480{min-height:480px}
+.min-height-640{min-height:640px}
+
+.max-height-320{max-height:320px}
+.max-height-480{max-height:480px}
+.max-height-640{max-height:640px}
+.max-height-720{max-height:720px}
+
+.max-width-240{max-width:240px}
+.max-width-320{max-width:320px}
+.max-width-480{max-width:480px}
+.max-width-640{max-width:640px}
+
+.flex-row{ flex-direction: row; }
+.flex-align-center{ align-items: center; }
+
+.noselect, .noSelect, .noHighlight
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.clearZone{display:block;position:relative;margin:50px;}
+
+.flip-X, .flip-x
+{
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
+
+/* device */
+@media (max-width:991px){
+	.content_desk,.content_deskt,.content_desktop, .contentDesk,.contentDeskt,.contentDesktop{display:none}
+	.content_pad, .contentPad{display:initial}
+}
+@media (max-width:768px){
+	.content_tab,.content_tablet,.content_mbl,.content_mobile,.contentTab,.contentTablet,.contentMbl,.contentMobile{display:initial}
+	.min-height-640{min-height:320px}
+	.max-width-640{max-width:460px}
+}
+/***** Define END *****/
+
+
+/***** Animations START *****/
+
+/***** Animations END *****/
+
+
+/***** Print START *****/
+@media print
+{
+	
+}
+/***** Print END *****/
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++ CUSTOMIZATION BEGINS HERE ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+	margin:16px 0;
+}
+h5{ font-size:16px; }
+h4{ font-size:20px; }
+h3{ font-size:24px; }
+body, p, a, label, span
+{
+	font-size:13px;
+}
+/* form */
+form .form-row .form-group
+{
+	width:100%;
+}
+form .form-row label
+{
+	width:32%;
+}
+form .form-control
+{
+	width:66%;
+}
+form .form-row > .col
+{
+	
+}
+.form-row > .col label
+{
+	
+}
+.form-row span.view
+{
+	float:right;
+}
+
+form input[type="color"], 
+form input[type="date"], 
+form input[type="datetime-local"], 
+form input[type="datetime"], 
+form input[type="email"], 
+form input[type="month"], 
+form input[type="number"], 
+form input[type="password"], 
+form input[type="search"], 
+form input[type="tel"], 
+form input[type="text"], 
+form input[type="time"], 
+form input[type="url"], 
+form input[type="week"], 
+form select, 
+form textarea,
+form span
+{
+	border:0 !important;
+	background-color: transparent !important;
+	padding:0 !important;
+	line-height: 1;
+	min-height: auto;
+	height:auto;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    order:2;
+}
+form .control-label::after
+{
+	content:' : ';
+}
+pre
+{
+	font-size:70%;
+}
+.form-wrap p, 
+p.description, 
+p.help, 
+span.description,
+.required, .modalView sup, .modalView sub,
+form .form-row abbr,
+sup, sub
+{
+	display:none;
+}
+table.wp-list-table
+{
+	direction:ltr;
+	width:100%;
+}
+table.wp-list-table th
+{
+	text-align:left;
+}

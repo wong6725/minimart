@@ -1,0 +1,70 @@
+.wrap .action-group{margin:12px 0;}
+.modal{z-index:9999;}
+
+/* overall listing page style */
+.wcwh .wcwh-form{margin-top:12px;}
+.wcwh .form-table th{ padding: 10px 5px 10px 5px; width:auto !important; }
+.wcwh .form-table td{ padding: 7px 5px; }
+.wcwh .form-table textarea, .wcwh .form-table input[type=text], .wcwh .form-table input[type=number], .wcwh .form-table select{ width:100%; }
+.wcwh .wp-list-table textarea, .wcwh .wp-list-table input[type=text], .wcwh .wp-list-table input[type=number], .wcwh .wp-list-table select{ width:100%; }
+input.numonly{ width:89px !important; }
+
+table.wp-list-table tr.row_parent{ background:#F2F2F2 !important; }
+table.wp-list-table tr.row_child td:first-child{ padding-left:22px; }
+
+/* misc pre-defined */
+.required{ color:red; }
+.align-left, .leftered{ text-align:left; }
+.align-right, .rightered{ text-align:right; }
+.align-center, .centered{ text-align:center; }
+.floatnone{ float:none; }
+.floatleft{ float:left; }
+.floatright{ float:right; }
+.sticky{ position:sticky;position: -webkit-sticky;top:0; }
+.absolute-center{ position:absolute;margin:auto;left:0 ;right:0; }
+
+/* forms */
+.wcwh #poststuff .innerbox{ display:inline-block;vertical-align:top; }
+.wcwh #poststuff .innerbox.leftbox{ width:60%; }
+.wcwh #poststuff .innerbox.rightbox{ width:38%; }
+
+/* inventory */
+#poststuff.inventory.sticky{ top:5px; }
+.wh_inventory.wp-list-table .column-base_qty,
+.wh_inventory.wp-list-table .column-qty,
+.wh_inventory.wp-list-table .column-allocated,
+.wh_inventory.wp-list-table .column-balance{ width:64px; }
+.wh_inventory.wp-list-table .column-act_qty{ width:78px; }
+.wh_inventory.wp-list-table .column-act_reissue{ width:120px; }
+.wh_inventory.wp-list-table .column-act_reissue select{ width:100%; }
+.wh_inventory.wp-list-table .column-act_remark textarea{ width:100%; }
+
+/* pricing */
+table.wh_pricing td form .tablenav{display:none;}
+form.row_modal_form{ position:relative; }
+form.row_modal_form .overlay{
+	display:none;
+	position:absolute;
+	background:rgba(0,0,0,0.3);
+	width:100%; height:100%;
+	top:0; right:0; left: 0;
+}
+
+/* woocommerce product */
+
+
+@media (min-width:1201px){
+	
+}
+@media (max-width:1200px){
+	
+}
+@media (max-width:991px){
+	
+}
+@media (max-width:767px){
+
+}
+@media (max-width:480px){
+
+}
